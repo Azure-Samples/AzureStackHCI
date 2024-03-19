@@ -1,6 +1,6 @@
 # Azure Stack HCI Software Defined Networking (SDN) training resources
 
-Welcome to our private repository that hosts the downloadable resources for the SDN training. We're excited that you are taking the self-paced, self-directed training of SDN and landed on this page to download the training resources. These resources are updated regularly. If you've downloaded a training resource before, be sure to check back here often to download the latest version.
+Welcome to our private repository for the SDN training resources. Explore and download the materials for your self-paced, self-directed SDN training. These resources are updated regularly. If you've downloaded a training resource before, be sure to check back here often to download the latest version.
 
 > [!NOTE]
 > This repo is internally managed, and outside contributions aren't permitted. For any questions or feedback, reach out to the SDN training team <!--add email alias-->.
@@ -11,7 +11,7 @@ The SDN training is divided into several modules. Each module has a downloadable
 
 ## Download training resources
 
-Follow these steps to download training resources.
+Follow these steps to download the SDN training resources.
 
 ### Download a single file
 

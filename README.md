@@ -3,7 +3,7 @@
 Welcome to the SDN training resources repository. Explore and download the materials for your self-paced, self-directed SDN training. These resources are updated regularly. If you've downloaded a training resource before, be sure to check back here often to download the latest version.
 
 > [!NOTE]
-> This repo is internally managed, and outside contributions aren't permitted. For any questions or feedback, reach out to the SDN training team <!--add email alias-->.
+> This repo is internally managed, and outside contributions aren't permitted. For any questions or feedback, reach out to [sdn_feedback@microsoft.com](mailto:sdn_feedback@microsoft.com).
 
 ## About SDN training resources
 

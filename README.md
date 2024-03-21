@@ -1,57 +1,40 @@
-# Project Name
+# Azure Stack HCI Software Defined Networking (SDN) training resources
 
-(short, 1-3 sentenced, description of the project)
+Welcome to the SDN training resources repository. Explore and download the materials for your self-paced, self-directed SDN training. These resources are updated regularly. If you've downloaded a training resource before, be sure to check back here often to download the latest version.
 
-## Features
+> [!NOTE]
+> This repo is internally managed, and outside contributions aren't permitted. For any questions or feedback, reach out to [sdn_feedback@microsoft.com](mailto:sdn_feedback@microsoft.com).
 
-This project framework provides the following features:
+## About SDN training resources
 
-* Feature 1
-* Feature 2
-* ...
+The SDN training is divided into several modules. Each module has a downloadable training deck in PowerPoint format and a corresponding hands-on lab document in PDF.
 
-## Getting Started
+## Download training resources
 
-### Prerequisites
+Follow these steps to download the SDN training resources.
 
-(ideally very short, if any)
+### Download a single file
 
-- OS
-- Library version
-- ...
+If you want to download a specific file, follow these steps:
 
-### Installation
+1. Go to the **sdn-training** folder. You'll find separate folders for each module.
+1. Select the module folder for which you want to download resources.
+1. Select the file you want to download.
+1. In the top-right corner, select the **Download raw file** icon. This action saves the file to your local computer.
 
-(ideally very short)
+### Download the entire repo
 
-- npm install [package name]
-- mvn install
-- ...
+If you want to download all the files in the repo, follow these steps:
 
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
+1. Go to the [AzureStackHCI repo page](https://github.com/Azure-Samples/AzureStackHCI/tree/main).
+1. Select the **Code** button.
+1. Select **Download ZIP**. This action downloads a ZIP file containing the entire repository.
 
 ## Resources
 
-(Any additional resources or related projects)
+- [Azure Stack HCI documentation](https://learn.microsoft.com/en-us/azure-stack/hci/)
+- [SDN technical reference]<!--add link when available>
 
-- Link to supporting information
-- Link to similar sample
-- ...
+## License
+
+Please refer to [LICENSE](LICENSE), [LICENSE-CODE](LICENSE-CODE) and [ThirdPartyNotices](ThirdPartyNotices.md) for all Licensing information.

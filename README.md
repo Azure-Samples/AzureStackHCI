@@ -7,7 +7,7 @@ Welcome to the SDN training resources repository. Explore and download the mater
 
 ## About SDN training resources
 
-The SDN training is divided into several modules. Each module has a downloadable training deck enhanced with extensive notes in PowerPoint format and a corresponding hands-on lab document in PDF.
+SDN training is organized into modules with specific learning objectives. Each module has a downloadable PowerPoint deck with detailed notes, and a corresponding hands-on lab document in PDF.
 
 ## Download training resources
 

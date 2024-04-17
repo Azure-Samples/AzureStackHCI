@@ -1,4 +1,4 @@
-Baseline Document,Security settings,Type,Location,ValueName,ValueType,Value
+﻿Baseline Document,Security settings,Type,Location,ValueName,ValueType,Value
 Security Baseline,Access Credential Manager as a trusted caller,SecurityPolicy,SeTrustedCredManAccessPrivilege,Privilege Rights,string,
 Security Baseline,Access this computer from the network,SecurityPolicy,SeNetworkLogonRight,Privilege Rights,string,"*S-1-5-11,*S-1-5-32-544"
 Security Baseline,Account lockout policy,SecurityPolicy,AccountLockoutPolicy,System Access,string,"ResetAccountLockoutCounterAfter:15, AccountLockoutDuration:15, AccountLockoutThreshold:3"
@@ -44,7 +44,7 @@ Security Baseline,Audit Special Logon,AuditPolicy,Special Logon,Audit,integer,3
 Security Baseline,Audit System Integrity,AuditPolicy,System Integrity,Audit,integer,3
 Security Baseline,Audit User Account Management,AuditPolicy,User Account Management,Audit,integer,3
 Security Baseline,Audit when plug and play detects an external device,AuditPolicy,Audit PNP Activity,Audit,integer,3
-Security Baseline,Audit: Audit the use of Backup and Restore privilege,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,FullPrivilegeAuditing,binary,0
+Security Baseline,Audit: Audit the use of Backup and Restore privilege,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,FullPrivilegeAuditing,binary,00
 Security Baseline,Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,SCENoApplyLegacyAuditPolicy,integer,1
 Security Baseline,Audit: Shut down system immediately if unable to log security audits,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,CrashOnAuditFail,integer,0
 Security Baseline,Backup files and directories,SecurityPolicy,SeBackupPrivilege,Privilege Rights,string,*S-1-5-32-544
@@ -200,7 +200,7 @@ Security Baseline,Profile single process,SecurityPolicy,SeProfileSingleProcessPr
 Security Baseline,Profile system performance,SecurityPolicy,SeSystemProfilePrivilege,Privilege Rights,string,"*S-1-5-32-544,*S-1-5-80-3139157870-2983391045-3678747466-658725712-1809340420"
 Security Baseline,Prohibit installation and configuration of Network Bridge on your DNS domain network,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Network Connections,NC_AllowNetBridge_NLA,integer,0
 Security Baseline,Prohibit use of Internet Connection Sharing on your DNS domain network,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Network Connections,NC_ShowSharedAccessUI,integer,0
-Security Baseline,Protect against microarchitectural and execution side-channel vulnerabilities,Registry,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization,MinVmVersionForCpuBasedMitigations,string,1
+Security Baseline,Protect against microarchitectural and execution side-channel vulnerabilities,Registry,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization,MinVmVersionForCpuBasedMitigations,string,1.0
 Security Baseline,Recovery console: Allow floppy copy and access to all drives and all folders,Registry,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Setup\RecoveryConsole,SetCommand,integer,0
 Security Baseline,Remote host allows delegation of non-exportable credentials,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\CredentialsDelegation,AllowProtectedCreds,integer,1
 Security Baseline,Replace a process level token,SecurityPolicy,SeAssignPrimaryTokenPrivilege,Privilege Rights,string,"*S-1-5-19,*S-1-5-20"
@@ -228,6 +228,7 @@ Security Baseline,"System cryptography: Use FIPS compliant algorithms for encryp
 Security Baseline,System objects: Require case insensitivity for non-Windows subsystems,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel,ObCaseInsensitive,integer,1
 Security Baseline,System objects: Strengthen default permissions of internal system objects (e.g. Symbolic Links),Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager,ProtectionMode,integer,1
 Security Baseline,System Policies NtfsEncryptPagingFile,Registry,HKLM:\SYSTEM\CurrentControlSet\Policies,NtfsEncryptPagingFile,integer,1
+Security Baseline,System SecurityProviders SCHANNEL EvenLogging,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL,EventLogging,integer,5
 Security Baseline,System Services Afd DisableAddressSharing,Registry,HKLM:\SYSTEM\CurrentControlSet\Services\Afd\Parameters,DisableAddressSharing,integer,1
 Security Baseline,System settings: Use Certificate Rules on Windows Executables for Software Restriction Policies,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers,AuthenticodeEnabled,integer,1
 Security Baseline,Take ownership of files or other objects,SecurityPolicy,SeTakeOwnershipPrivilege,Privilege Rights,string,*S-1-5-32-544
@@ -315,7 +316,7 @@ Security Baseline,Windows Security eventlog behavior reaching max size,Registry,
 Security Baseline,Windows security eventlog WarningLevel threshold percentage,Registry,HKLM:\SYSTEM\CurrentControlSet\Services\Eventlog\Security,WarningLevel,integer,90
 Security Baseline,Windows System EnumerateLocalUsers,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\System,EnumerateLocalUsers,integer,0
 Security Baseline,Windows WindowsSearch AllowIndexingEncryptedStoresOrItems,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Search,AllowIndexingEncryptedStoresOrItems,integer,0
-Security Baseline,WindowsNT MitigationOptions MitigationOptions FontBocking,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\MitigationOptions,MitigationOptions_FontBocking,string,1E+12
+Security Baseline,WindowsNT MitigationOptions MitigationOptions FontBocking,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\MitigationOptions,MitigationOptions_FontBocking,string,1000000000000
 Security Baseline,WindowsNT Rpc RestrictRemoteClients,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Rpc,RestrictRemoteClients,integer,1
 Security Baseline,WinVerifyTrust Signature Validation vulnerability Mitigation 1,Registry,HKLM:\SOFTWARE\Microsoft\Cryptography\Wintrust\Config,EnableCertPaddingCheck,string,1
 Security Baseline,WinVerifyTrust Signature Validation vulnerability Mitigation 2,Registry,HKLM:\SOFTWARE\Wow6432Node\Microsoft\Cryptography\Wintrust\Config,EnableCertPaddingCheck,string,1

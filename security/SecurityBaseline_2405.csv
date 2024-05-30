@@ -1,4 +1,4 @@
-Baseline Document,Security settings,Type,Location,ValueName,ValueType,Value
+﻿Baseline Document,Security settings,Type,Location,ValueName,ValueType,Value
 Security Baseline,Access Credential Manager as a trusted caller,SecurityPolicy,SeTrustedCredManAccessPrivilege,Privilege Rights,string,
 Security Baseline,Access this computer from the network,SecurityPolicy,SeNetworkLogonRight,Privilege Rights,string,"*S-1-5-11,*S-1-5-32-544"
 Security Baseline,Account lockout policy,SecurityPolicy,AccountLockoutPolicy,System Access,string,"ResetAccountLockoutCounterAfter:15, AccountLockoutDuration:15, AccountLockoutThreshold:3"
@@ -6,8 +6,6 @@ Security Baseline,Accounts: Guest account status,SecurityPolicy,EnableGuestAccou
 Security Baseline,Accounts: Limit local account use of blank passwords to console logon only,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,LimitBlankPasswordUse,integer,1
 Security Baseline,Accounts: Rename guest account,SecurityPolicy,NewGuestName,System Access,string,ASBuiltInGuest
 Security Baseline,Act as part of the operating system,SecurityPolicy,SeTcbPrivilege,Privilege Rights,string,<Empty>
-Security Baseline,Allow Cortana,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Search,AllowCortana,integer,0
-Security Baseline,Allow Cortana above lock screen,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Search,AllowCortanaAboveLock,integer,0
 Security Baseline,Allow Input Personalization,Registry,HKLM:\SOFTWARE\Policies\Microsoft\InputPersonalization,AllowInputPersonalization,integer,0
 Security Baseline,Allow log on locally,SecurityPolicy,SeInteractiveLogonRight,Privilege Rights,string,*S-1-5-32-544
 Security Baseline,Allow Microsoft accounts to be optional,Registry,HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,MSAOptional,integer,1
@@ -44,7 +42,7 @@ Security Baseline,Audit Special Logon,AuditPolicy,Special Logon,Audit,integer,3
 Security Baseline,Audit System Integrity,AuditPolicy,System Integrity,Audit,integer,3
 Security Baseline,Audit User Account Management,AuditPolicy,User Account Management,Audit,integer,3
 Security Baseline,Audit when plug and play detects an external device,AuditPolicy,Audit PNP Activity,Audit,integer,3
-Security Baseline,Audit: Audit the use of Backup and Restore privilege,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,FullPrivilegeAuditing,binary,0
+Security Baseline,Audit: Audit the use of Backup and Restore privilege,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,FullPrivilegeAuditing,binary,00
 Security Baseline,Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,SCENoApplyLegacyAuditPolicy,integer,1
 Security Baseline,Audit: Shut down system immediately if unable to log security audits,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Lsa,CrashOnAuditFail,integer,0
 Security Baseline,Backup files and directories,SecurityPolicy,SeBackupPrivilege,Privilege Rights,string,*S-1-5-32-544
@@ -92,7 +90,7 @@ Security Baseline,Disable SHA1,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\S
 Security Baseline,Disable Windows Error Reporting,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting,Disabled,integer,0
 Security Baseline,Disabling Name Resolution using LLMNR,Registry,HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters,EnableMulticast,integer,0
 Security Baseline,Disabling Name Resolution using NETBIOS,Registry,HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters,EnableNetbios,integer,0
-Security Baseline,Disallow Autoplay for non-volume devices,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Explorer,NoAutoplayfornonVolume,integer,1
+Security Baseline,Windows Explorer NoAutoplayfornonVolume,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Explorer,NoAutoplayfornonVolume,integer,1
 Security Baseline,Disallow Digest authentication,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client,AllowDigest,integer,0
 Security Baseline,Disallow WinRM from storing RunAs credentials,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service,DisableRunAs,integer,1
 Security Baseline,Do not allow drive redirection,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services,fDisableCdm,integer,1
@@ -101,8 +99,6 @@ Security Baseline,Do not display network selection UI,Registry,HKLM:\SOFTWARE\Po
 Security Baseline,Do not display the password reveal button,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\CredUI,DisablePasswordReveal,integer,1
 Security Baseline,Do not enumerate connected users on domain-joined computers,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\System,DontEnumerateConnectedUsers,integer,1
 Security Baseline,Do not show feedback notifications,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection,DoNotShowFeedbackNotifications,integer,1
-Security Baseline,Domain controller: LDAP server signing requirements,Registry,HKLM:\SYSTEM\CurrentControlSet\Services\NTDS\Parameters,LDAPServerIntegrity,integer,2
-Security Baseline,Domain controller: Refuse machine account password changes,Registry,HKLM:\SYSTEM\CurrentControlSet\Services\Netlogon\Parameters,RefusePasswordChange,integer,0
 Security Baseline,Domain member: Digitally encrypt or sign secure channel data (always),Registry,HKLM:\SYSTEM\CurrentControlSet\Services\Netlogon\Parameters,RequireSignOrSeal,integer,1
 Security Baseline,Domain member: Digitally encrypt secure channel data (when possible),Registry,HKLM:\SYSTEM\CurrentControlSet\Services\Netlogon\Parameters,SealSecureChannel,integer,1
 Security Baseline,Domain member: Digitally sign secure channel data (when possible),Registry,HKLM:\SYSTEM\CurrentControlSet\Services\Netlogon\Parameters,SignSecureChannel,integer,1
@@ -270,7 +266,6 @@ Security Baseline,Windows Defender Signature Updates Schedule Day,Registry,HKLM:
 Security Baseline,Windows EvenLog System MaxSize,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\System,MaxSize,integer,32768
 Security Baseline,Windows EventLog Application MaxSize,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application,MaxSize,integer,32768
 Security Baseline,Windows EventLog Security MaxSize,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Security,MaxSize,integer,196608
-Security Baseline,Windows Explorer NoAutoplayfornonVolume,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\Explorer,NoAutoplayfornonVolume,integer,1
 Security Baseline,Windows Firewall: Domain: Allow unicast response,Registry,HKLM:\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile,DisableUnicastResponsesToMulticastBroadcast,integer,0
 Security Baseline,Windows Firewall: Domain: Firewall state,Registry,HKLM:\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile,EnableFirewall,integer,1
 Security Baseline,Windows Firewall: Domain: Inbound connections,Registry,HKLM:\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile,DefaultInboundAction,integer,1

@@ -56,7 +56,7 @@ Security Baseline,Configure detection for potentially unwanted applications,Regi
 Security Baseline,Configure Solicited Remote Assistance,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services,fAllowToGetHelp,integer,0
 Security Baseline,Configure TPM platform validation profile for native UEFI firmware configurations,Registry,HKLM:\SOFTWARE\Policies\Microsoft\FVE\OSPlatformValidation_UEFI,Enabled,integer,0
 Security Baseline,Configure Windows Defender SmartScreen,Registry,HKLM:\SOFTWARE\Policies\Microsoft\Windows\System,EnableSmartScreen,integer,1
-Security Baseline,Configuring speculative execution side-channel mitigation FeatureSettingsOverride,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management,FeatureSettingsOverride,integer,16777288
+Security Baseline,Configuring speculative execution side-channel mitigation FeatureSettingsOverride,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management,FeatureSettingsOverride,integer,83886152
 Security Baseline,Configuring speculative execution side-channel mitigation FeatureSettingsOverrideMask,Registry,HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management,FeatureSettingsOverrideMask,integer,3
 Security Baseline,Create a pagefile,SecurityPolicy,SeCreatePagefilePrivilege,Privilege Rights,string,*S-1-5-32-544
 Security Baseline,Create a token object,SecurityPolicy,SeCreateTokenPrivilege,Privilege Rights,string,<Empty>

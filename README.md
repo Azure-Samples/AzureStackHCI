@@ -1,4 +1,4 @@
-# Azure Stack HCI Software Defined Networking (SDN) training resources
+# Azure Local Software Defined Networking (SDN) training resources
 
 Welcome to the SDN training resources repository. Explore and download the materials for your self-paced, self-directed SDN training. These resources are updated regularly. If you've downloaded a training resource before, be sure to check back here often to download the latest version.
 
@@ -32,8 +32,8 @@ If you want to download all the files in the repo, follow these steps:
 
 ## Resources
 
-- [Azure Stack HCI documentation](https://learn.microsoft.com/azure-stack/hci/)
-- [SDN technical reference](https://learn.microsoft.com/azure-stack/hci/manage/sdn-technical-reference)
+- [Azure Local documentation](https://learn.microsoft.com/azure/azure-local/)
+- [SDN technical reference](https://learn.microsoft.com/azure/azure-local/manage/sdn-technical-reference)
 
 ## License
 

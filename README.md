@@ -1,39 +1,34 @@
-# Azure Local Software Defined Networking (SDN) training resources
+# Azure Local sample repository
 
-Welcome to the SDN training resources repository. Explore and download the materials for your self-paced, self-directed SDN training. These resources are updated regularly. If you've downloaded a training resource before, be sure to check back here often to download the latest version.
+Welcome to Azure Local sample repository! This repo provides a centralized location for resources related to Software Defined Networking (SDN) training, security baseline information for different releases of Azure Local, and other related documents.
 
 > [!NOTE]
-> This repo is internally managed, and outside contributions aren't permitted. For any questions or feedback, reach out to [sdn_feedback@microsoft.com](mailto:sdn_feedback@microsoft.com).
+> This repo is internally managed, and outside contributions aren't permitted.
 
-## About SDN training resources
+## SDN training resources
+
+Explore and download the materials for your self-paced, self-directed SDN training. These resources are updated regularly. If you've downloaded a training resource before, be sure to check back here often to download the latest version.
 
 SDN training is organized into modules with specific learning objectives. Each module has a downloadable PowerPoint deck with detailed notes, and a corresponding hands-on lab document in PDF.
 
-## Download training resources
-
-Follow these steps to download the SDN training resources.
-
-### Download a single file
-
-If you want to download a specific file, follow these steps:
+Follow these steps to download the SDN training resources:
 
 1. Go to the **sdn-training** folder. You'll find separate folders for each module.
 1. Select the module folder for which you want to download resources.
 1. Select the file you want to download.
-1. In the top-right corner, select the **Download raw file** icon. This action saves the file to your local computer.
+1. In the top-right corner, select the **Download raw file** icon. This action saves the file onto your local computer.
 
-### Download the entire repo
+For any questions or feedback on the training resources, reach out to [sdn_feedback@microsoft.com](mailto:sdn_feedback@microsoft.com). For more information, see [Azure Local documentation](https://learn.microsoft.com/azure/azure-local/) and [SDN technical reference](https://learn.microsoft.com/azure/azure-local/manage/sdn-technical-reference).
 
-If you want to download all the files in the repo, follow these steps:
+## Security baseline
 
-1. Go to the [AzureStackHCI repo page](https://github.com/Azure-Samples/AzureStackHCI/tree/main).
-1. Select the **Code** button.
-1. Select **Download ZIP**. This action downloads a ZIP file containing the entire repository.
+Download the Security Baseline in CSV format for the respective Azure Local release.
 
-## Resources
+Follow these steps to download the Security Baseline CSV:
 
-- [Azure Local documentation](https://learn.microsoft.com/azure/azure-local/)
-- [SDN technical reference](https://learn.microsoft.com/azure/azure-local/manage/sdn-technical-reference)
+1. Go to the **security** folder. You'll find separate security baseline CSV files for each release.
+1. Select the file you want to download.
+1. In the top-right corner, select the **Download raw file** icon. This action saves the file onto your local computer.
 
 ## License
 
